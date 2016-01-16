@@ -26,7 +26,7 @@ h1, h2, button {
   color: $gray;
 }
 
-h1, h2, h3, p, li {
+h1, h2, h3, p, li, span, a, button, dt, dd {
   font-family: $font;
 }
 
@@ -59,11 +59,11 @@ p, li {
 }
 
 div#main.jumbotron {
-  margin : 33px auto 33px auto;
+  margin : 11px auto 11px auto;
   background-color : rgba(255,255,255,.66);
-  width : 66%;
+  width : 88%;
   font-size : 16px;
-
+  padding : 11px;
 }
 
 #top-section {
@@ -90,12 +90,14 @@ div#main.jumbotron {
 
 #contact-info {
   padding-top : 18px;
+  span {
+    color : white;
+    font-size : .7rem;
+
+  }
+
 }
 
-#contact-info span {
-  color : white;
-  font-size : .7rem;
-}
 
 #contact-button {
   margin-top : 14px;
@@ -103,6 +105,7 @@ div#main.jumbotron {
   background-color : $blue;
   color : white;
   border : none;
+
 }
 
 #contact-button:hover {
@@ -113,7 +116,7 @@ div#main.jumbotron {
 #footer {
   background-color : $blue;
 
-  h1, span, a, p {
+  h1, span, a, p, dt, dd {
     color : white;
   }
 }
